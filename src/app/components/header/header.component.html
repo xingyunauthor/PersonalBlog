@@ -1,0 +1,26 @@
+<header>
+    <div class="tophead">
+        <div class="logo"><a href="/">杨青个人博客</a></div>
+        <div id="mnav">
+            <h2 (click)="showNav($event)" [className]="navShow ? 'open' : ''"><span class="navicon"></span></h2>
+            <ul *ngIf="navShow">
+                <li><a routerLink="index" (click)="link()">网站首页</a></li>
+                <li><a routerLink="about" (click)="link()">关于我</a></li>
+                <li><a routerLink="share" (click)="link()">模板分享</a></li>
+                <li><a routerLink="list" (click)="link()">学无止境</a></li>
+                <li><a routerLink="info" (click)="link()">慢生活</a></li>
+                <li><a routerLink="gbook" (click)="link()">留言</a></li>
+            </ul>
+        </div>
+        <nav class="topnav" id="topnav">
+            <ul>
+                <li><a routerLink="/index" routerLinkActive="topnav_current">网站首页</a></li>
+                <li><a routerLink="/about" routerLinkActive="topnav_current">关于我</a></li>
+                <li><a routerLink="/share" routerLinkActive="topnav_current">模板分享</a></li>
+                <li><a routerLink="/list" routerLinkActive="topnav_current">学无止境</a></li>
+                <li><a routerLink="/info" routerLinkActive="topnav_current">慢生活</a></li>
+                <li><a routerLink="/gbook" routerLinkActive="topnav_current">留言</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
