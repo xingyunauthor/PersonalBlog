@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
-项目参照此模版（http://zaoan.yangqq.com/）开发，支持服务端渲染，模块与页面的简单划分（页面上的功能基本没有改写成组件），因此只适合`入门教程`来学习。
+项目参照此模版 (http://zaoan.yangqq.com/) 开发，支持服务端渲染，模块与页面的简单划分（页面上的功能基本没有改写成组件），因此只适合`入门教程`来学习。
 当然如果对angular已经比较熟悉了，可以自行修改并用于自己的博客系统也是可以的。
 
 ## Development server
